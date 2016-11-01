@@ -1,0 +1,32 @@
+{
+  "name": "ripples",
+  "version": "1.0.0",
+  "description": "This is a cool little mixin I made in SCSS for button animations. Hover over the buttons to see the magic! I hope you like it and I hope it comes in handy for you!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackthomsonn/ripples.git"
+  },
+  "keywords": [
+    "Buttony",
+    "Animations",
+    "SCSS",
+    "Helpers",
+    "Mixins"
+  ],
+  "author": "Jack Thomson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jackthomsonn/ripples/issues"
+  },
+  "homepage": "https://github.com/Jackthomsonn/ripples#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-sass": "^2.3.2"
+  }
+}

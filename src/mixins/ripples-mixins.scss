@@ -1,0 +1,32 @@
+@mixin ripples($color, $growthField, $size) {
+  background: $color;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: $size + px;
+  height: $size + px;
+  &:hover:before {
+    content: '';
+    width: $size + px;
+    height: $size + px;
+    position: absolute;
+    border-radius: 100%;
+    animation: ripples .8s ease-in-out
+  }
+  > .material-icons {
+    color: icon-color($color)
+  }
+  @keyframes ripples {
+    0% {
+      border: 1px solid transparent;
+    }
+    100% {
+      border: $growthField + px solid darken($color, 12%);
+      opacity: 0
+    }
+  }
+}

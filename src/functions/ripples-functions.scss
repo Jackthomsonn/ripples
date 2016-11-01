@@ -1,0 +1,8 @@
+@function icon-color($color) {
+  @if (lightness($color) > 50) {
+    @return darken($color, 30)
+  }
+  @else {
+    @return lighten($color, 30)
+  }
+}
