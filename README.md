@@ -1,5 +1,5 @@
 # Ripples
-This is a cool little mixin I made in SCSS for button animations. Hover over the buttons to see the magic! I hope you like it and I hope it comes in handy for you!
+This is a cool little mixin I made in SCSS for button animations. Hover over the buttons to see the magic! I hope you like it and I hope it comes in handy for you! Check out the [codepen](http://codepen.io/Jackthomsonn/pen/GjVPWX?editors=0100) to see Ripples in action
 
 ##Usage
 * First, clone this repo or download the mixins and functions folders found in the `src` folder
