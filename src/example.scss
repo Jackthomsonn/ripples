@@ -1,4 +1,6 @@
 @import 'functions/ripples-functions';
 @import 'mixins/ripples-mixins';
 
-@include ripples(#FEFEFE, 20, 50)
+button {
+  @include ripples(#FEFEFE, 20, 50)
+}
